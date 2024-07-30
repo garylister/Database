@@ -1,5 +1,5 @@
 
-WITH recursive xym -- (cnt, year_month, beg_date, end_date, month_desc, quarter) 
+WITH recursive xym 
 AS (
 -- this is the counter that runs the script
 SELECT 12 AS cnt,
